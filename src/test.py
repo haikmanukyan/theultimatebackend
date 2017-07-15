@@ -1,6 +1,6 @@
 import flask
 from flask import Flask
-app = Flask(__name__, template_folder='flask/templates', static_folder='flask/assets')
+app = Flask(__name__, template_folder='../web/templates', static_folder='../web/assets')
 
 class Page1:
     def __str__(self):
